@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F6FF"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#0157c8">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/person" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_marginLeft="20dp"
+            android:text="Welcome"
+            android:layout_marginTop="30dp"
+            android:textColor="#FDFDFD"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_marginLeft="20dp"
+            android:textColor="#FDFDFD"
+            android:textSize="20dp"
+            android:layout_below="@+id/textView"
+            android:text="Juan Dela Cruz" />
+
+        <TextView
+            android:id="@+id/search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/imageView"
+            android:textColor="#9E9A9A"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:background="@color/white"
+            android:textSize="25dp"
+            android:gravity=""
+            android:text="Search" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/pic1" />
+
+    <TextView
+        android:id="@+id/service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Our Service" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="horizontal">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:columnCount="4"
+            android:rowCount="4" >
+            <ImageView
+                android:id="@+id/plumbing"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#FFFFFF"
+                android:src="@drawable/plumbing" />
+
+                <ImageView
+                    android:id="@+id/repairing"
+                    android:layout_height="80dp"
+                    android:layout_width="80dp"
+                    android:background="#FFFFFF"
+                    android:layout_marginLeft="16dp"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:src="@drawable/repairing" />
+
+                <ImageView
+                    android:id="@+id/electrical"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="#FFFFFF"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/electrical"/>
+
+                <ImageView
+                    android:id="@+id/carpentry"
+                    android:layout_height="80dp"
+                    android:layout_width="80dp"
+                    android:background="#FFFFFF"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/carpentry"/>
+
+               <TextView
+                   android:id="@+id/plumbing1"
+                   android:layout_width="80dp"
+                   android:layout_height="wrap_content"
+                   android:text="Plumbing" />
+
+            <TextView
+                android:id="@+id/repairing1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Repairing"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:id="@+id/electrical1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Electrical" />
+
+            <TextView
+                android:id="@+id/carpentry1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Carpentry" />
+
+            <ImageView
+                android:id="@+id/cleaning"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#FFFFFF"
+                android:src="@drawable/cleaning" />
+
+            <ImageView
+                android:id="@+id/painting"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#FFFFFF"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/painting"/>
+
+            <ImageView
+                android:id="@+id/moving"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#FFFFFF"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/moving"/>
+
+            <ImageView
+                android:id="@+id/handyman"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#FFFFFF"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/handyman"/>
+
+            <TextView
+                android:id="@+id/cleaning1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Cleaning" />
+
+            <TextView
+                android:id="@+id/painting1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Painting" />
+
+            <TextView
+                android:id="@+id/moving1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Moving" />
+
+            <TextView
+                android:id="@+id/handyman1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Handyman" />
+
+        </GridLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/handymanname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Top Handyman"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#FDFDFD" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/handymanpic"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:src="@drawable/pic2" />
+
+            <TextView
+                android:id="@+id/handyman_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/handymanpic"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Jonathan Patterson"/>
+
+            <TextView
+                android:id="@+id/specialist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="15dp"
+                android:layout_toRightOf="@id/handymanpic"
+                android:layout_below="@id/handyman_name"
+                android:text="Handyman Specialist"/>
+
+            <TextView
+                android:id="@+id/star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/handymanpic"
+                android:layout_below="@id/specialist"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:textSize="18dp"
+                android:textColor="#FFEB3B"
+                android:text="★" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/specialist"
+                android:layout_toRightOf="@id/star"
+                android:layout_marginLeft="10dp"
+                android:textColor="#9E9A9A"
+                android:text="4.9 (37 Reviews)"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
